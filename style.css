@@ -1,0 +1,345 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+    color: #1b1b1e;
+    /* 
+         #faa916 =yellow
+        #92140c = red
+        #fbffff = white
+        #6d676e = grey
+        #1b1b1e = black */
+}
+
+body {
+    background:#1b1b1e;
+    margin: 0;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 5px solid #faa916;
+    background: #92140c;
+    /* sticky at the top below */
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+
+}
+#sub_title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #faa916 ;
+    float: right;
+    padding-right:155px;
+    padding-top: 5px;
+    
+}
+
+#website_title{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    color: #faa916;
+    float: right;
+    padding-right: 50px;
+    
+    margin: 0px;
+    clear: both;
+}
+#logo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding:5px;
+    margin-bottom: 10px;
+    background: #faa916;
+}
+
+
+
+#nav_container {
+    width: 100%;
+    height: 70px;
+    background: cornsilk;
+    clear: both;
+    border-bottom: #faa916;
+}
+
+nav {
+    height: 50px;
+    width: 700px;
+    padding-top: 10px;
+    border-bottom:5px #faa916;
+}
+#nav_search {
+    width: 100%;
+    height: 70px;
+    background: cornsilk;
+    clear: both;
+    border-bottom:5px #faa916;
+}
+#nav_left {
+    width: 60%;
+    height: 61px;
+    background: cornsilk;
+    float: left;
+    border-bottom:5px #faa916;
+}
+#search_right {
+    width: 30%;
+    height: 50px;
+    background: cornsilk;
+    float: right;
+    border-bottom: 5px #faa916;
+}
+nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+nav ul li {
+            padding: 0px 20px 0 10;
+            float: left;
+            display: block;
+            position: relative;
+        }
+    
+    nav li ul {
+        display: none;
+    }
+
+nav ul li a {
+                font-size: 20px;
+                color:#92140c;
+                border-bottom: 1px solid cornsilk;
+                padding: 5px 15px 0px 15px;
+                display: block;
+                text-decoration: none;
+                white-space: nowrap;
+                font-family: 'Cormorant Garamond', serif;
+                
+            }
+            nav ul li a:hover {
+                background: #faa916;
+                text-transform:uppercase;
+                color: #1b1b1e;
+                }
+
+                nav li:hover ul {
+                    display: block;
+                    position: absolute;
+                }
+                nav li:hover li {
+                    float: none;
+                    font-size: 11px;
+                }
+                nav li:hover a { background:#92140c; color: cornsilk; }
+                nav li:hover li a:hover {
+                    background: #fbffff;
+                }
+#search{
+    width: 200px;
+    height: 20px;
+}
+
+section {
+    background:#1b1b1e;
+    height: 50;
+    padding: 20px 0px 20px 20px;
+    clear: both;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: #faa916;
+}
+aside {
+    width: 900px;
+    height: 420px;
+    clear: both;
+    margin: 10;
+
+}
+#rules_aside{
+    width: 900px;
+    height: 720px;
+    clear: both;
+    margin: 10px;
+    
+    
+}
+article {
+    width: 900px;
+    height: 420px;
+    border: 5px solid #faa916;
+    color: #1b1b1e;
+    background: cornsilk;
+    clear: both;
+    margin: 10px;
+}
+#article2 {
+    width: 900px;
+    height: 175px;
+    border: 5px solid #faa916;
+    color: #1b1b1e;
+    background: cornsilk;
+    clear: both;
+}
+#article_class2
+{
+    width: 900px;
+    height: 800px;
+    border: 5px solid #faa916;
+    color: #1b1b1e;
+    background: cornsilk;
+    clear: both; 
+}
+
+#article_class
+{
+    width: 900px;
+    height: 590px;
+    border: 5px solid #faa916;
+    color: #1b1b1e;
+    background: cornsilk;
+    margin-bottom: 10px;
+    clear: both;
+}
+iframe{
+    width:900px;
+    height:400px;
+    padding: 0px 0px 0px 20px;
+}
+
+h1{
+    color: #92140c;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: xx-large;
+    border-bottom: #faa916;
+    padding-left: 20px;
+}
+h2{
+    color: #1b1b1e;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: x-large;
+    padding-left: 50px;
+}
+
+p {
+padding: 0px 0px 0px 20px;
+font-size: larger;
+}
+
+#article_box{
+    margin: 30px 5px 20px 40px;
+}
+
+#article_box a{
+    display: box;
+    background-color: #92140c;
+    color: #faa916;
+    font-size: large ;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 5px 20px 5px ;
+}
+
+#description_container{
+    width: 900px;
+    height: 250px;
+    clear: both;
+    margin: 5px;
+}
+#description{
+    width: 690px;
+    height: 230px;
+    border: 5px solid #faa916;
+    color: #1b1b1e;
+    background: cornsilk;
+    float: left;
+    
+}
+
+#right_image{
+   
+    height: 200px;
+    float: right;
+    width: 190px;
+    margin:0;
+    padding-left: 2px;
+    padding-bottom: 5px;
+   
+}
+
+
+#bottom { 
+    width: 100%;
+    padding: 20px;
+    background: #1b1b1e;
+    height: 10px;
+}
+footer {
+    padding: 20px;
+    height: 100px;
+    clear: both;
+    background:#92140c;
+    color:#fbffff ;
+    border: #faa916 solid 10px;
+}
+#nav1{
+    height: 50px;
+    width: 700px;
+    padding-top: 10px;
+}
+#nav1 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav1 ul li {
+        padding: 0px 10px 0 0;
+        float: left;
+        display: block;
+        position: relative;
+    }
+
+#nav1 li ul {
+    display: none;
+}
+
+#nav1 ul li a {
+            font-size: 10px;
+            color:#faa916;
+            border-bottom: 1px solid #6d676e;
+            padding: 5px 30px 0px 15px;
+            display: block;
+            text-decoration: none;
+            white-space: nowrap;
+            font-family: 'Cormorant Garamond', serif;
+            
+        }
+        #nav1 ul li a:hover {
+            background: #faa916;
+            text-transform:uppercase;
+            color: #1b1b1e;
+            }
+
+            #nav1 li:hover ul {
+                display: block;
+                position: absolute;
+            }
+            #nav1 li:hover li {
+                float: none;
+                font-size: 11px;
+            }
+            #nav1 li:hover a { background:#1b1b1e; }
+            #nav1 li:hover li a:hover {
+                background: #fbffff;
+            }
